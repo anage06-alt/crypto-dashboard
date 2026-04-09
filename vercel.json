@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/coingecko/:path*",
+      "destination": "https://api.coingecko.com/:path*"
+    },
+    {
+      "source": "/cointelegraph-rss/:path*",
+      "destination": "https://cointelegraph.com/:path*"
+    }
+  ]
+}
